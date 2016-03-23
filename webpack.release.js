@@ -43,7 +43,6 @@ module.exports = {
       "react-router-redux": "commonjs react-router-redux",
       "redux-thunk": "commonjs redux-thunk",
       "thunk": "commonjs thunk",
-      "rc-dialog": "commonjs rc-dialog",
       "react-loader": "commonjs react-loader",
       "url": "commonjs url",
       "react-bootstrap": "commonjs react-bootstrap",

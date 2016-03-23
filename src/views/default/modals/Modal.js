@@ -42,26 +42,7 @@ class BaseModal extends React.Component {
       : this.props.children;
 
     return (this.props.show)
-      ? (
-        <Dialog
-          visible={this.props.show}
-          className={`redux-auth-modal ${this.props.containerClass}`}
-          title={this.props.title}
-          onClose={this.close.bind(this)}>
-
-          <div className="redux-auth-modal-body">
-            {body}
-          </div>
-
-          <div className="redux-auth-modal-footer">
-            <button
-              onClick={this.close.bind(this)}
-              className={`${this.props.containerClass}-close`}>
-              {this.props.closeBtnLabel}
-            </button>
-          </div>
-        </Dialog>
-      )
+      ? <span />
       : <span />;
   }
 }
